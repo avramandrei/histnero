@@ -7,7 +7,9 @@ You can read more about the dataset in the following paper: [*HistNERo: Historic
 
 ## Loading
 
-To load the dataset, simply install the `datasets` library and run:
+The HistNERo dataset is available in the `data` directory as three json files (i.e. for train, valid and test).
+
+Alternatively, you can load the dataset by simply installing the `datasets` library and then running:
 
 ```Python
 from datasets import load_dataset
